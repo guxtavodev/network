@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #242424;
+    color: #ffffffde;
+    font-family: Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;
+}
+
+header{
+    text-align: center;
+    padding-top: 2em;
+}
+
+ul{
+    margin-left: 1.5em;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+main div h3{
+    font-size: 1.5em;
+}
+
+main div p{
+    font-size: 1em;
+}
+
+footer{
+    margin-top: 2em;
+    /* width: 100%; */
+    background: #000;
+    text-align: center;
+    padding: 10px;
+}
